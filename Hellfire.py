@@ -2,7 +2,6 @@ import numpy as np
 import matplotlib.pyplot as plt
 #Funçao auxiliar para calcular a densidade do ar
 # Simulador de impacto de um AGM 114 Hellfire
-#feito por Iorran Valença
 def air_density(z):
     return 1.225 * np.exp(-z / 8.5)
 
