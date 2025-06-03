@@ -1,0 +1,1 @@
+Simple AGM 114 aiming and tracking system for moving target, uses proportional navigation (takes the path that the target is doing and get a "Shortcut" by picking a collision point in between the missile and the target) to adjust its line of sight and measures angular changes
