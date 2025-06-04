@@ -82,7 +82,7 @@ while t < 30:
     total_force = thrust_vec + accel_cmd + drag_vec - np.array([0.0, 0.0, mass * g]) #Força total
     accel = total_force / mass #Aceleração do missel formula F = m * a = força total dividido pela massa
 
-    # Update missile physics (THIS WAS MISSING!)
+    # Update da posicao e vel do misselzinho
     missile_vel += accel * dt
     missile_pos += missile_vel * dt
 
